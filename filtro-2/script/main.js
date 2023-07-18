@@ -130,7 +130,33 @@ import { getDepartamentos, deleteDepartamento,getCiudadesDepar,deleteCiudad } fr
     
         })
 
+       
         
+        let toggle = document.getElementById("toggle");
+        let label = document.getElementById("label");
+        
+        // Verificar si hay un estado almacenado en el localStorage
+        const storedMode = localStorage.getItem("mode");
+        if (storedMode) {
+          if (storedMode === "dark-mode") {
+            document.body.classList.add("oscuro");
+            toggle.checked = true;
+            label.innerHTML = '<i class="fa-solid fa-sun"></i>';
+          }
+        }
+        
+        toggle.addEventListener("change", (event) => {
+          let estado = event.target.checked;
+          document.body.classList.toggle("oscuro");
+          
+          if (estado == true) {
+            label.innerHTML = '<i class="fa-solid fa-sun"></i>';
+            localStorage.setItem("mode", "dark-mode");
+          } else {
+            label.innerHTML = '<i class="fa-solid fa-moon"></i>';
+            localStorage.setItem("mode", "light-mode");
+          }
+        });
 
 
 })()

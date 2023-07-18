@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
   <body>
@@ -17,6 +19,10 @@
           <button class="tab_btn">Consulta Clima</button>
           <div class="line"></div>
         </div>
+        <div class="modo">
+          <label for="toggle" id="label"><i class="fa-solid fa-moon"></i></label>
+          <input type="checkbox" id="toggle">
+        </div>
         <div class="content_box">
           <div class="content active">
             <h2>Depart & City</h2>
@@ -27,6 +33,31 @@
                 bases de datos.
             </p>
             <img src="./styles/img/imagen1.jpg" class="img-fluid" alt="..." class="imagen1">
+
+            <div class="containerImg">
+              <div class="boxImagen">
+                <img src="./styles/img/img-1.jpg" alt="">
+              </div>
+              <div class="boxImagen">
+                <img src="./styles/img/img-2.jpg" alt="">
+              </div>
+              <div class="boxImagen">
+                <img src="./styles/img/img-3.jpg" alt="">
+              </div>
+              <div class="boxImagen">
+                <img src="./styles/img/img-4.jpg" alt="">
+              </div>
+              <div class="boxImagen">
+                <img src="./styles/img/img-5.jpg" alt="">
+              </div>
+              <div class="boxImagen">
+                <img src="./styles/img/img-6.jpg" alt="">
+              </div>
+              <div class="boxImagen">
+                <img src="./styles/img/img-7.jpg" alt="">
+              </div>
+            </div>
+
           </div>
 
 
@@ -54,7 +85,7 @@
                         <button type="submit">Registrar Departamento</button>
                     </form> -->
                     <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#ModalFormDepartamento">
-                        Registrar Nueva Ruta
+                        Registrar Departamento
                       </button>
                 </div>
             </div>

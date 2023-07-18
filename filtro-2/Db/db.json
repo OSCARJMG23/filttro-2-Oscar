@@ -11,6 +11,10 @@
     {
       "nomDepartamento": "Cesár",
       "id": 3
+    },
+    {
+      "nomDepartamento": "Atlantico",
+      "id": 4
     }
   ],
   "Ciudades": [
@@ -18,7 +22,7 @@
       "id": 1,
       "nomCiudad": "Bucaramanga",
       "DepartamentoId": 1,
-      "imagen": "../styles/img/imagenCiudad.jpg",
+      "imagen": "./styles/img/imagenCiudad.jpg",
       "coordenadas": {
         "lat": 4,
         "lon": 72
@@ -28,7 +32,7 @@
       "id": 2,
       "nomCiudad": "Barrancabermeja",
       "DepartamentoId": 1,
-      "imagen": "../styles/img/imagenCiudad.jpg",
+      "imagen": "./styles/img/imagenCiudad.jpg",
       "coordenadas": {
         "lat": 4,
         "lon": 72
@@ -38,7 +42,7 @@
       "id": 3,
       "nomCiudad": "Bogotá",
       "DepartamentoId": 2,
-      "imagen": "../styles/img/imagenCiudad.jpg",
+      "imagen": "./styles/img/imagenCiudad.jpg",
       "coordenadas": {
         "lat": 4,
         "lon": 72
@@ -48,11 +52,21 @@
       "id": 4,
       "nomCiudad": "Cajicá",
       "DepartamentoId": 2,
-      "imagen": "../styles/img/imagenCiudad.jpg",
+      "imagen": "./styles/img/imagenCiudad.jpg",
       "coordenadas": {
         "lat": 4,
         "lon": 72
       }
+    },
+    {
+      "nomCiudad": "Valledupar",
+      "DepartamentoId": 3,
+      "imagen": "./styles/img/imagenCiudad.jpg",
+      "coordenadas": {
+        "lat": 10.46314,
+        "lon": -73.25322
+      },
+      "id": 5
     }
   ]
 }

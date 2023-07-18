@@ -37,7 +37,7 @@ function validateCiudad(e){
     const ciudad = {
         nomCiudad: nombreCiudad,
         DepartamentoId: parseInt(idDepar),
-        imagen:  "../styles/img/imagenCiudad.jpg",
+        imagen:  "./styles/img/imagenCiudad.jpg",
         coordenadas:{
             lat: parseFloat(latitudCiudad),
             lon: parseFloat(longitudCiudad) 
