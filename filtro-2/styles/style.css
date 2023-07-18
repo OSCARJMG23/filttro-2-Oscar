@@ -24,7 +24,7 @@ body{
 #toggle {
   display: none;
 }
-.oscuro {
+.oscuro .container {
   background-color: #333;
   color: white;
   transition: all 1.5s ease;
