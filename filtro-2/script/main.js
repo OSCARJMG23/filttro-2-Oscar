@@ -87,7 +87,7 @@ import { getDepartamentos, deleteDepartamento,getCiudadesDepar,deleteCiudad } fr
 
         ciudades.forEach((ciudad)=>{
             const contenidoCiudad = `
-            <div style='width:18rem;'>
+            <div style='width:18rem;' class="carta">
             <img src="${ciudad.imagen}" style="width: 200px; height: 150;">
             <p>${ciudad.nomCiudad}</p>
             <button type="button" data-idCiudad ="${ciudad.id}" data-bs-toggle="modal" data-bs-target="#modalModificarCiudad"   value="Actualizar" class="btn btn-warning editCiudad">Actualizar</button>

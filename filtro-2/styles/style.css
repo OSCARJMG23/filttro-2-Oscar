@@ -216,6 +216,9 @@ body{
     display: flex;
     justify-content: center;
 }
+#selectDepar{
+  margin-top: 2rem;
+}
 /* consulta de clima */
   .card{
     width: 90%;
@@ -295,5 +298,8 @@ body{
     margin-left: 10px;
     font-size: 14px;
     margin-top: 10px;
+    display: none;
+}
+.weather{
     display: none;
 }
